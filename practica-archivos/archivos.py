@@ -51,7 +51,7 @@ def agregar_producto(productos):
     }
     productos.append(nuevo_producto)
     guardar_productos(productos)
-    print("✅ Producto agregado correctamente")
+    print("Producto agregado correctamente")
 
 # Función para buscar un producto por nombre
 def buscar_producto(productos):
@@ -65,7 +65,7 @@ def buscar_producto(productos):
     encontrado = False
     for producto in productos:
         if producto["nombre"].lower() == nombre_buscar.lower():
-            print(f"✅ Producto encontrado:")
+            print(f"Producto encontrado:")
             print(f"   Nombre: {producto['nombre']}")
             print(f"   Precio: ${producto['precio']}")
             print(f"   Cantidad: {producto['cantidad']}")
