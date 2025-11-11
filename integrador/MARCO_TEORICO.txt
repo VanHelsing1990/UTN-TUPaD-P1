@@ -1,16 +1,111 @@
-MARCO TEÓRICO - GESTIÓN DE PAÍSES
+MARCO TEÓRICO - SISTEMA DE GESTIÓN DE DATOS DE PAÍSES
+=====================================================
 
-1. LISTAS: Usé listas para guardar todos los países
-   Ejemplo: paises = [{"nombre": "Argentina", ...}, {"nombre": "Brasil", ...}]
+1. ESTRUCTURAS DE DATOS EN PYTHON
+----------------------------------
 
-2. DICCIONARIOS: Cada país es un diccionario con:
-   - nombre, poblacion, superficie, continente
+1.1 LISTAS
+- Almacenan colecciones ordenadas de elementos
+- Son mutables: se pueden modificar, agregar y eliminar elementos
+- En el proyecto: lista principal que guarda todos los países
+- Ejemplo: paises = [diccionario1, diccionario2, ...]
 
-3. FUNCIONES: Dividí el programa en funciones pequeñas:
-   - agregar_pais(), buscar_pais(), mostrar_estadisticas()
+1.2 DICCIONARIOS
+- Estructuras clave-valor para modelar entidades
+- Cada país es un diccionario con 4 atributos
+- Claves: nombre, poblacion, superficie, continente
+- Acceso semántico: claves descriptivas en lugar de índices
 
-4. ORDENAMIENTO: Usé algoritmo burbuja para ordenar por nombre, población, etc.
+2. PROGRAMACIÓN MODULAR
+-----------------------
 
-5. ARCHIVOS CSV: Guardo los datos en archivo para que no se pierdan
+2.1 FUNCIONES ESPECIALIZADAS
+- Cada función tiene una responsabilidad única
+- Validación: validar_entero(), validar_texto()
+- Archivos: cargar_paises(), guardar_paises()
+- Lógica: agregar_pais(), buscar_pais(), actualizar_pais()
 
-Fuente: Documentación oficial de Python
+2.2 VENTAJAS DE LA MODULARIZACIÓN
+- Mantenibilidad: cambios localizados
+- Reusabilidad: funciones usadas múltiples veces
+- Legibilidad: código auto-documentado
+- Testabilidad: verificación independiente
+
+3. ALGORITMOS DE ORDENAMIENTO
+-----------------------------
+
+3.1 ALGORITMO BURBUJA
+- Ordenamiento por comparaciones sucesivas
+- Compara elementos adyacentes y los intercambia
+- Complejidad: O(n²) en el peor caso
+- Estabilidad: mantiene orden de elementos iguales
+
+3.2 CRITERIOS DE ORDENAMIENTO
+- Nombre (A-Z y Z-A)
+- Población (ascendente y descendente)
+- Superficie (ascendente y descendente)
+- Total: 6 criterios diferentes
+
+4. GESTIÓN DE ARCHIVOS CSV
+--------------------------
+
+4.1 FORMATO CSV
+- Valores separados por comas
+- Legible 
+- Estructura: nombre,poblacion,superficie,continente
+
+4.2 MÓDULO CSV DE PYTHON
+- Lectura/escritura segura de archivos
+- Manejo automático de delimitadores
+- Codificación UTF-8 para caracteres especiales
+
+5. VALIDACIÓN Y MANEJO DE ERRORES
+----------------------------------
+
+5.1 TIPOS DE VALIDACIÓN
+- Campos obligatorios vs opcionales
+- Números enteros positivos
+- Texto no vacío
+- Unicidad de registros
+
+5.2 ESTRATEGIAS
+- Validación proactiva: antes del procesamiento
+- Feedback inmediato al usuario
+- Mensajes claros de error y éxito
+
+6. INTERFAZ DE USUARIO
+----------------------
+
+6.1 DISEÑO DE MENÚS
+- Menú principal con 8 opciones
+- Submenú para filtros
+- Navegación jerárquica e intuitiva
+
+6.2 PRINCIPIOS DE USABILIDAD
+- Consistencia en formatos
+- Mensajes descriptivos
+- Tolerancia a errores
+- Presentación tabular de datos
+
+7. ANÁLISIS ESTADÍSTICO
+-----------------------
+
+7.1 MÉTRICAS CALCULADAS
+- País con mayor y menor población
+- País con mayor y menor superficie
+- Promedios de población y superficie
+- Distribución por continentes
+
+7.2 ALGORITMOS DE CÁLCULO
+- Identificación de valores extremos
+- Cálculo de promedios
+- Conteo por categorías
+- Agregaciones numéricas
+
+FUENTES BIBLIOGRÁFICAS
+======================
+- Documentación oficial de Python
+- "Python Crash Course" - Eric Matthes
+- "Automate the Boring Stuff with Python" - Al Sweigart
+- Real Python Tutorials
+- GeeksforGeeks Algorithms Section
