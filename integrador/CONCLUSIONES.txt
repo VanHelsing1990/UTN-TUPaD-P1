@@ -1,0 +1,14 @@
+CONCLUSIONES DEL PROYECTO
+
+APRENDÍ:
+- Cómo organizar código en funciones
+- Cómo guardar datos en archivos
+- Cómo validar que el usuario ingrese datos correctos
+- Cómo hacer búsquedas y filtros
+
+LO MÁS DIFÍCIL:
+- Validar todos los posibles errores
+- Hacer el ordenamiento de datos
+
+REFLEXIÓN:
+Este proyecto me enseñó a resolver problemas complejos dividiéndolos en partes pequeñas.

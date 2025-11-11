@@ -1,0 +1,16 @@
+MARCO TEÓRICO - GESTIÓN DE PAÍSES
+
+1. LISTAS: Usé listas para guardar todos los países
+   Ejemplo: paises = [{"nombre": "Argentina", ...}, {"nombre": "Brasil", ...}]
+
+2. DICCIONARIOS: Cada país es un diccionario con:
+   - nombre, poblacion, superficie, continente
+
+3. FUNCIONES: Dividí el programa en funciones pequeñas:
+   - agregar_pais(), buscar_pais(), mostrar_estadisticas()
+
+4. ORDENAMIENTO: Usé algoritmo burbuja para ordenar por nombre, población, etc.
+
+5. ARCHIVOS CSV: Guardo los datos en archivo para que no se pierdan
+
+Fuente: Documentación oficial de Python
